@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mainframe</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <script type="text/javascript" src="/static/javascript/script.js"></script>
+    </head>
+    <body>
+        <div class="panel">
+            <section id="usage-chart-section">
+                <section>
+                    <h2>Uso do Sistema</h2>
+                    <canvas id="usage-chart" width="800" height="600"></canvas>      
+                </section>
+
+                <section id="cpu">
+                    <p id="cpu-usage">Aguardando dados...</p>
+                    <p id="disk-usage">Aguardando dados...</p>
+                    <p id="memory-usage">Aguardando dados...</p>
+                </section>
+            </section>
+        </div>
