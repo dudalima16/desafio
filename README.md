@@ -11,3 +11,5 @@
 4 - Depois de executa deve retornar no terminal uma url onde você vai conseguir acessar o projeto
     exemplo: http://127.0.0.1:5000/
     
+-------------------------------------------------------------------------------------------------------------------------------------
+Faltou realizar a configuração do SQL junto com a integração para salvar os dados no banco e a autenticação SSH 
